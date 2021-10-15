@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.hea{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: cyan;
+}
+.headerText{
+color: #260882;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hiddenText{
+user-select: none;
+    height: 17vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.hiddenText p{
+  color: #260882;
+}
+.headerText p{
+  color: #260882;
+}
+.mainTextArea{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainTextArea textarea{
+    color: #260882;
+border: 20px solid #260882;
+    padding:  20px;
+    font-weight: bold;
+    resize: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button{
+    color: #260882;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 1014px) {
+.hiddenText{
+    font-size:17px ;
+    width: 97%;
+}
+.headerText{
+    font-size: 15px;
+}
+  }
+  
+
+  @media only screen and (max-width: 645px) {
+    .headerText{
+        font-size: 10px;
+    }
+    .headerText{
+        font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 531px) {
+      #MainText{
+          height: 30vh;
+      }
+      .headerText{
+          font-size: 10px;
+      }
+      .hiddenText{
+          height: 26vh;
+      }
+  }
+
+  @media only screen and (max-width: 420px) {
+      .headerText{
+          font-size: 6.5px;
+      }
+  }
+
+  #MainTextgg:hover{
+cursor: not-allowed;
+  }
+
+  #MainTextggg:hover{
+    cursor:pointer
+      }
